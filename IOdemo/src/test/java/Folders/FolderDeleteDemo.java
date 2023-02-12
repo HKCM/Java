@@ -10,7 +10,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Comparator;
 import java.util.stream.Stream;
 
-public class TestDeleteFolder {
+public class FolderDeleteDemo {
     String prefix = "test";
 
     // 创建测试文件和文件夹

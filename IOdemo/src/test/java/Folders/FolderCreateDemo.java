@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class TestCreateFolder {
+public class FolderCreateDemo {
     @Test
     public void testCreateFolder() {
         createFolder("test/aaa");

@@ -29,3 +29,4 @@ target/
 test/
 !IOdemo/src/test
 out/
+/IOdemo/testCopy/
