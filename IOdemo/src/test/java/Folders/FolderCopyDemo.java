@@ -18,9 +18,9 @@ public class FolderCopyDemo {
     @Test
     public void createMoreFiles() throws IOException {
         System.out.println("创建测试文件夹");
-        Files.createDirectories(Paths.get(prefix + "/test1/test2/test3/test4/test5/"));
-        Files.write(Paths.get(prefix + "/test1/test2/test2.log"), "hello".getBytes());
-        Files.write(Paths.get(prefix + "/test1/test2/test3/test3.log"), "hello".getBytes());
+        Files.createDirectories(Paths.get(prefix + "/test1/test2/emptyFolder/test4/test5/"));
+        Files.write(Paths.get(prefix + "/test1/test2/test2.log"), "hello test2".getBytes());
+        Files.write(Paths.get(prefix + "/test1/test2/emptyFolder/emptyFolder.log"), "hello emptyFolder".getBytes());
     }
 
     @Test
@@ -59,7 +59,6 @@ public class FolderCopyDemo {
                 copyDir(file, new File(dest, file.getName()));
             }
         }
-
     }
 
 }

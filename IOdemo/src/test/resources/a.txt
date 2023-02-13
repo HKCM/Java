@@ -1,2 +1,1 @@
-ABCDE哈喽
-Hello World
+你好世界
